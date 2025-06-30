@@ -1,7 +1,9 @@
-let projects = [];
-let nextId = 1;
+const { DataTypes } = require('sequelize');
+const sequelize = require('../config/database');
 
-module.exports = {
-  projects,
-  nextId,
-};
+const Project = sequelize.define('Project', {
+  name: { type: DataTypes.STRING, allowNull: false },
+  description: { type: DataTypes.STRING },
+});
+
+module.exports = Project;
