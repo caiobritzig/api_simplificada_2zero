@@ -17,21 +17,12 @@ API REST para gerenciamento de usuários, projetos e tarefas, utilizando Node.js
    CREATE DATABASE api_simplificada_2zero;
    ```
 
-3. **Configure o arquivo `.env` na raiz do projeto:**
-   ```
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=
-   DB_NAME=api_simplificada_2zero
-   JWT_SECRET=segredo123
-   ```
-
-4. **Instale as dependências:**
+3. **Instale as dependências:**
    ```
    npm install
    ```
 
-5. **Inicie o servidor:**
+4. **Inicie o servidor:**
    ```
    npm start
    ```
